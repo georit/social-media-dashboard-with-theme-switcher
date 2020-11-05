@@ -56,7 +56,7 @@ body {
 header {
   background-color: var(--light-top-bg-pattern);
   border-radius: 0 0 25px 25px;
-  padding: 3rem 5% 6rem;
+  padding: 2rem 5% 6rem;
 }
 
 .heading-count {
@@ -156,7 +156,7 @@ input:checked + .slider:before {
   width: 90%;
   margin: 0 auto;
   position: absolute;
-  top: 220px;
+  top: 205px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -269,6 +269,13 @@ h3.section-heading {
 }
 
 .daily-component p.change {
+  color: var(--lime-green);
   font-weight: 700;
   padding-left: 0.2rem;
+}
+
+.daily-component:nth-child(2) p.change,
+.daily-component:nth-child(7) p.change,
+.daily-component:nth-child(8) p.change {
+  color: var(--bright-red);
 }
