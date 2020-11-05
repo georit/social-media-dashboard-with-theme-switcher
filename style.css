@@ -45,6 +45,7 @@
 
 body {
   background-color: var(--white);
+  color: var(--light-text);
   font-family: var(--font-family);
   font-size: 14px;
   position: relative;
@@ -70,7 +71,6 @@ header {
 }
 
 header p.count {
-  color: var(--light-text);
   font-weight: 700;
 }
 
@@ -83,7 +83,6 @@ header p.count {
 }
 
 .theme-switcher-text {
-  color: var(--light-text);
   font-weight: 700;
 }
 
@@ -202,7 +201,6 @@ input:checked + .slider:before {
 }
 
 .s-media-handle-text {
-  color: var(--light-text);
   font-weight: 700;
   padding-left: 0.5rem;
 }
@@ -215,7 +213,6 @@ input:checked + .slider:before {
 }
 
 .follower-text {
-  color: var(--light-text);
   text-transform: uppercase;
   letter-spacing: 4px;
   padding-bottom: 1.5rem;
@@ -231,4 +228,47 @@ input:checked + .slider:before {
   color: var(--bright-red);
 }
 
-.
+/* ***daily stats*** */
+h3.section-heading {
+  padding-bottom: 1.2rem;
+}
+
+.daily-component {
+  background-color: var(--light-card-bg);
+  border-radius: 5px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.media-type,
+.count-change {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media-type {
+  padding-bottom: 1rem;
+}
+
+.type,
+.count {
+  font-weight: 700;
+}
+
+.daily-component .count {
+  color: var(--very-dark-blue);
+  font-size: 1.5rem;
+}
+
+.change {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.daily-component p.change {
+  font-weight: 700;
+  padding-left: 0.2rem;
+}
