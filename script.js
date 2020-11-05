@@ -5,6 +5,7 @@ const toggleSwitch = document.getElementById("toggle-switch");
 const mainHeading = document.querySelector(".main-heading");
 const cardEls = document.querySelectorAll(".card");
 const followerCounts = document.querySelectorAll(".follower-count");
+const sectionHeading = document.querySelector('.section-heading');
 const dailyCounts = document.querySelectorAll(".count");
 
 /* *****functions***** */
@@ -28,6 +29,9 @@ const toggleDarkMode = () => {
     followerCount.classList.remove("main-heading-light-mode");
     followerCount.classList.add("main-heading-dark-mode");
   });
+  // section heading
+  sectionHeading.classList.remove('main-heading-light-mode');
+  sectionHeading.classList.add('main-heading-dark-mode');
   // daily counts
   dailyCounts.forEach((dailyCount) => {
     dailyCount.classList.remove("main-heading-light-mode");
@@ -55,6 +59,9 @@ const toggleLightMode = () => {
     followerCount.classList.remove("main-heading-dark-mode");
     followerCount.classList.add("main-heading-light-mode");
   });
+  // section heading
+  sectionHeading.classList.remove('main-heading-dark-mode');
+  sectionHeading.classList.add('main-heading-light-mode');
   // daily counts
   dailyCounts.forEach((dailyCount) => {
     dailyCount.classList.remove("main-heading-dark-mode");
