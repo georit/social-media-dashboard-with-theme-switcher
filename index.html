@@ -16,16 +16,23 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header>
+  <body class="body-light-mode">
+    <header class="header-light-mode">
       <div class="heading-count">
-        <h2 class="main-heading">Social Media Dashboard</h2>
-        <p class="count">Total Followers: 23,004</p>
+        <h2 class="main-heading .main-heading-light-mode">
+          Social Media Dashboard
+        </h2>
+        <p class="total-count">Total Followers: 23,004</p>
       </div>
       <div class="theme-switcher">
         <p class="theme-switcher-text">Dark Mode</p>
         <label class="switch">
-          <input type="checkbox" class="toggle-switch" checked />
+          <input
+            type="checkbox"
+            class="toggle-switch"
+            id="toggle-switch"
+            checked
+          />
           <span class="slider round"></span>
         </label>
       </div>
@@ -33,7 +40,7 @@
     <div class="wrapper">
       <div class="overall-container">
         <div class="dash-component-wrapper">
-          <div class="dashboard-component card">
+          <div class="dashboard-component card card-light-mode">
             <div class="s-media-handle">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                 <path
@@ -43,7 +50,7 @@
               </svg>
               <p class="s-media-handle-text">@nathanf</p>
             </div>
-            <p class="follower-count">1987</p>
+            <p class="follower-count main-heading-light-mode">1987</p>
             <p class="follower-text">Followers</p>
             <div class="follower-change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
@@ -54,7 +61,7 @@
           </div>
         </div>
         <div class="dash-component-wrapper">
-          <div class="dashboard-component card">
+          <div class="dashboard-component card card-light-mode">
             <div class="s-media-handle">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
                 <path
@@ -64,7 +71,7 @@
               </svg>
               <p class="s-media-handle-text">@nathanf</p>
             </div>
-            <p class="follower-count">1044</p>
+            <p class="follower-count main-heading-light-mode">1044</p>
             <p class="follower-text">Followers</p>
             <div class="follower-change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
@@ -75,7 +82,7 @@
           </div>
         </div>
         <div class="dash-component-wrapper">
-          <div class="dashboard-component card">
+          <div class="dashboard-component card card-light-mode">
             <div class="s-media-handle">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                 <defs>
@@ -92,7 +99,7 @@
               </svg>
               <p class="s-media-handle-text">@realnathanf</p>
             </div>
-            <p class="follower-count">11k</p>
+            <p class="follower-count main-heading-light-mode">11k</p>
             <p class="follower-text">Followers</p>
             <div class="follower-change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
@@ -103,7 +110,7 @@
           </div>
         </div>
         <div class="dash-component-wrapper">
-          <div class="dashboard-component card">
+          <div class="dashboard-component card card-light-mode">
             <div class="s-media-handle">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                 <path
@@ -113,7 +120,7 @@
               </svg>
               <p class="s-media-handle-text">Nathan F.</p>
             </div>
-            <p class="follower-count">8239</p>
+            <p class="follower-count main-heading-light-mode">8239</p>
             <p class="follower-text">Subscribers</p>
             <div class="follower-change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
@@ -126,7 +133,7 @@
       </div>
       <h3 class="section-heading">Overview - Today</h3>
       <div class="daily-container">
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Page Views</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -137,7 +144,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">87</p>
+            <p class="count main-heading-light-mode">87</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -146,7 +153,7 @@
             </div>
           </div>
         </div>
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -157,7 +164,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">52</p>
+            <p class="count main-heading-light-mode">52</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z" />
@@ -166,7 +173,7 @@
             </div>
           </div>
         </div>
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -184,7 +191,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">5462</p>
+            <p class="count main-heading-light-mode">5462</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -193,7 +200,7 @@
             </div>
           </div>
         </div>
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Profile Views</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -211,7 +218,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">52k</p>
+            <p class="count main-heading-light-mode">52k</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -220,7 +227,7 @@
             </div>
           </div>
         </div>
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Retweets</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
@@ -231,7 +238,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">117</p>
+            <p class="count main-heading-light-mode">117</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -240,7 +247,7 @@
             </div>
           </div>
         </div>
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
@@ -251,7 +258,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">507</p>
+            <p class="count main-heading-light-mode">507</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z" />
@@ -260,7 +267,7 @@
             </div>
           </div>
         </div>
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Likes</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -271,7 +278,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">107</p>
+            <p class="count main-heading-light-mode">107</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z" />
@@ -280,7 +287,7 @@
             </div>
           </div>
         </div>
-        <div class="daily-component card">
+        <div class="daily-component card card-light-mode">
           <div class="media-type">
             <p class="type">Total Views</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -291,7 +298,7 @@
             </svg>
           </div>
           <div class="count-change">
-            <p class="count">1407</p>
+            <p class="count main-heading-light-mode">1407</p>
             <div class="change">
               <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4">
                 <path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z" />
